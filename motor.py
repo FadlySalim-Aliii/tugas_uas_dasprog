@@ -1,7 +1,28 @@
 data_motor = {
-    '111': {'jenis': 'Matic', 'merk': 'Honda', 'model': 'Vario', 'cc': '160 cc', 'harga': '28.330.000'},
-    '112': {'jenis': 'Sport', 'merk': 'Yamaha', 'model': 'R15', 'cc': '155 cc', 'harga': '40.000.000'},
-    '113': {'jenis': 'Harley', 'merk': 'Harley-Davidson', 'model': 'Street 750', 'cc': '749 cc', 'harga': '285.000.000'}
+    
+    '111': {
+        'jenis': 'Matic', 
+        'merk': 'Honda', 
+        'model': 'Vario', 
+        'cc': '160 cc', 
+        'harga': '28.330.000'
+        },
+    
+    '112': {
+        'jenis': 'Sport', 
+        'merk': 'Yamaha', 
+        'model': 'R15', 
+        'cc': '155 cc', 
+        'harga': '40.000.000'
+        },
+    
+    '113': {
+        'jenis': 'Harley', 
+        'merk': 'Harley-Davidson', 
+        'model': 'Street 750', 
+        'cc': '749 cc', 
+        'harga': '285.000.000'
+        }
 }
 
 def menu_motor(data_motor):
