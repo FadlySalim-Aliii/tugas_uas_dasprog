@@ -1,7 +1,28 @@
 data_mobil = {
-    '121': {'jenis': 'Sedan', 'merk': 'Honda', 'model': 'Civic RS Turbo', 'cc': '1498 cc', 'harga': '625.000.000'},
-    '122': {'jenis': 'SUV', 'merk': 'Toyota', 'model': 'Fortuner 2.4 VRZ', 'cc': '2393 cc', 'harga': '620.000.000'},
-    '123': {'jenis': 'MPV', 'merk': 'Mitsubishi', 'model': 'XPander Ultimate', 'cc': '1499 cc', 'harga': '330.000.000'}
+    
+    '121': {
+        'jenis': 'Sedan', 
+        'merk': 'Honda', 
+        'model': 'Civic RS Turbo', 
+        'cc': '1498 cc', 
+        'harga': '625.000.000'
+        },
+    
+    '122': {
+        'jenis': 'SUV', 
+        'merk': 'Toyota', 
+        'model': 'Fortuner 2.4 VRZ', 
+        'cc': '2393 cc', 
+        'harga': '620.000.000'
+        },
+    
+    '123': {
+        'jenis': 'MPV', 
+        'merk': 'Mitsubishi', 
+        'model': 'XPander Ultimate', 
+        'cc': '1499 cc', 
+        'harga': '330.000.000'
+        }
 }
 
 def menu_mobil(data_mobil):

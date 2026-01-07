@@ -2,7 +2,7 @@ from motor import menu_motor, data_motor
 from mobil import menu_mobil, data_mobil
 
 print("=" * 100)
-print("MASUKAN DATA DIRI ANDA UNTUK RESGISTRASI!")
+print("MASUKAN DATA DIRI ANDA UNTUK REGISTRASI!")
 nama = input("\n=> Masukan Nama Lengkap Anda: ")
 nomor = input("\n=> Masukan Nomor Telepon Anda: ")
 print("=" * 100)
@@ -59,8 +59,8 @@ pajak = total * 0.20
 total_bayar = total + pajak
 
 print("-" * 100)
-print(f"\t\t\t\t\t\t\t\tPajak 20%\t: Rp.{int(pajak):,}".replace(",", "."))
-print(f"\t\t\t\t\t\t\t\tTotal Bayar\t: Rp.{int(total_bayar):,}".replace(",", "."))
+print(f"\t\t\t\t\t\t\t\tPajak 20%\t: Rp.{round(pajak):,}".replace(",", "."))
+print(f"\t\t\t\t\t\t\t\tTotal Bayar\t: Rp.{round(total_bayar):,}".replace(",", "."))
 print("\nKami Keluarga Besar SHOWROOM BIFARY OTOMOTIVE Mengucapkan")
 print(f"Terima Kasih Banyak Kepada {nama} Karna Telah Melakukan Pembelian Kendaraan di Showroom Kami :)")
 print("\nMohon untuk di tunggu Konfirmasi dari Tim kami perihal Kesiapan Kendaraan anda untuk di kirim")
