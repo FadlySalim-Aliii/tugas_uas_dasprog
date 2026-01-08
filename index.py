@@ -59,6 +59,7 @@ pajak = total * 0.20
 total_bayar = total + pajak
 
 print("-" * 100)
+print(f"\t\t\t\t\t\t\t\tTotal\t: Rp.{int(total):,}".replace(",", "."))
 print(f"\t\t\t\t\t\t\t\tPajak 20%\t: Rp.{int(pajak):,}".replace(",", "."))
 print(f"\t\t\t\t\t\t\t\tTotal Bayar\t: Rp.{int(total_bayar):,}".replace(",", "."))
 print("\nKami Keluarga Besar SHOWROOM BIFARY OTOMOTIVE Mengucapkan")
